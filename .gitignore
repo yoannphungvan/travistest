@@ -1,0 +1,8 @@
+.DS_Store
+.vagrant
+vendor
+app/tests/_output
+c3.php
+app/deploy_configs
+composer.phar
+node_modules
