@@ -16,7 +16,7 @@ rvm:
 
 # Commands you want to run that will verify your build.
 script:
-  - cd ./app/tests && ../../app/vendor/be/bin/codecept  run unit unit
+  - cd ./app/tests && ../../app/vendor/be/bin/codecept run unit
 
 # Customize when the notification emails are sent.
 notifications:
