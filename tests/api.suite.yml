@@ -1,0 +1,17 @@
+class_name: ApiTester
+modules:
+    enabled: [PhpBrowser, REST, Db, ApiHelper, Asserts]
+    config:
+        PhpBrowser:
+            url:
+        REST:
+            depends: PhpBrowser
+            url: http://192.168.11.99/
+        Db:
+            dsn: 'mysql:host=srv1.db.dev.salesfloor.net;dbname=travis'
+            user: 'root'
+            password: '123456'
+            dump: 'tests/_data/dump.sql'
+            populate: true
+            cleanup: false
+            reconnect: true

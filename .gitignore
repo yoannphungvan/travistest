@@ -6,3 +6,5 @@ c3.php
 app/deploy_configs
 composer.phar
 node_modules
+
+tests/_output/*
