@@ -18,7 +18,7 @@ rvm:
 script:
   - ./app/vendor/be/bin/codecept run unit
   - ./app/vendor/be/bin/codecept run functional
-  - ./app/vendor/be/bin/codecept run api
+#  - ./app/vendor/be/bin/codecept run api
 
 # Customize when the notification emails are sent.
 notifications:
